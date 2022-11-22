@@ -39,6 +39,7 @@
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Device" >
                 <param name="android-package" value="org.apache.cordova.device.Device"/>
+                <param name="android:exported" value="false"
             </feature>
         </config-file>
 
